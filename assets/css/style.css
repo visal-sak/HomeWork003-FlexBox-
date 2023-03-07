@@ -1,0 +1,237 @@
+
+@font-face {
+    font-family: NotoSerifKhmer-Bold;
+    src: url("../font/NotoSerifKhmer-Bold.ttf");
+}
+
+/* Body */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: "NotoSerifKhmer-Bold",serif;
+    color: rgb(11, 11, 255);
+}
+
+/* Container */
+.container{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+/* Sticky */
+.sticky{
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.sticky a{
+    text-decoration: none;
+    color: white;
+}
+
+.sticky a h2{
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 5px 0px;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../image/picture/rainbow.jpg");
+    background-size: cover;
+}
+
+/* Navigator */
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+nav div{
+    width: 50%;
+    height: auto;
+}
+
+nav img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 10px;
+}
+
+/* Nav Box */
+.nav-box{
+    border: 1px solid rgb(0, 0, 129);
+}
+
+/* Head text */
+.head-text{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.head-text div p{
+    text-align: center;
+    color: rgb(0, 0, 129);
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.head-text div button{
+    font-weight: 700;
+    display: block;
+    background-color: rgb(0, 0, 129);
+    color: white;
+    border: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.head-text div button:hover{
+    font-weight: 700;
+    color: rgb(0, 0, 129);
+    background-color: greenyellow;
+}
+
+/* Main Content */
+main{
+    width: 100%;
+    height: auto;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.main-text{
+    text-align: center;
+    color: rgb(0, 0, 129);
+    font-weight: 700;
+    padding: 10px 10px;
+}
+
+.picture{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.picture img{
+    width: 400px;
+    height: 400px;
+}
+/* About */
+.about{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+
+.about div{
+    display: inline-block;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.about img{
+    width: 400px;
+    height: 350px;
+}
+
+.about-text{
+    width: 300px;
+    color: rgb(0, 0, 129);
+    font-weight: 700;
+}
+
+.about-text button{
+    border: 0;
+    color: rgb(0, 0, 129);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Menu */
+.menu{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.menu-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.item{
+    color: rgb(0, 0, 129);
+    width: 400px;
+    height: 300px;
+    background-color: transparent;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.item h1{
+    color: rgb(12, 12, 125);
+    font-size: 68px;
+}
+
+.item h2{
+    color: rgb(11, 11, 255);
+    font-family: "NotoSerifKhmer-Bold",serif;
+}
+
+.item p{
+    color: rgb(11, 11, 255);
+    font-family: "NotoSerifKhmer-Bold",serif;
+}
+.gallery{
+    display: flex;
+    flex-grow: 1;
+   
+}
+.gallery ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery li{
+    height: 40vh; 
+    flex-grow: 1;
+    list-style: none;
+}
+img{
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
